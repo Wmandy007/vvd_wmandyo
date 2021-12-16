@@ -38,18 +38,20 @@ exports.createLearning = async (req, res, next) => {
         .json({ success: false, message: 'Learning Item already exists' });
     }
     const ListId = randomBytes(16).toString('hex');
+    console.log(Title);
+
     let Createlearning = await Learning.create({
-      Series,
-      Season,
-      Episode,
-      ListId,
-      Title,
-      Description,
-      MediaType,
-      Media,
-      Completion,
+      Series: Series,
+      Season: Season,
+      Episode: Episode,
+      ListId: ListId,
+      Title: Title,
+      Description: Description,
+      MediaType: MediaType,
+      Media: Media,
+      Completion: Completion,
       Banner: req.imageArr,
-      Status,
+      Status: Status,
     });
     res.status(200).json({
       success: true,
@@ -185,16 +187,6 @@ exports.updateLearning = async (req, res, next) => {
         data: updatedLearning,
       });
     }
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-exports.getLearningByEpisodeId = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const items = await Learning.find({ Episode: id });
-    return res.status(200).json(items);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
