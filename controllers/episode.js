@@ -1,5 +1,4 @@
-const Episode = require('../models/Episode');
-const Learning = require('../models/LearningItem');
+const Episode = require("../models/Episode");
 
 // @Method: POST
 // @Route : api/Episode/create
@@ -20,24 +19,24 @@ exports.createEpisode = async (req, res) => {
     if (!Series || !Title || !Status) {
       return res.status(400).json({
         success: false,
-        message: 'Please enter all the fields.',
+        message: "Please enter all the fields.",
       });
     }
     if (!req.imageArr) {
       return res.status(400).json({
-        message: 'image is required',
+        message: "image is required",
       });
     }
     if (req.imageArr.length > 1) {
       return res.status(400).json({
-        Message: 'you can insert only One image for banner',
+        Message: "you can insert only One image for banner",
       });
     }
     let dupEpisode = await Episode.findOne({ Title });
     if (dupEpisode) {
       return res
         .status(400)
-        .json({ success: false, message: 'Episode already exists' });
+        .json({ success: false, message: "Episode already exists" });
     }
     let episode = await Episode.create({
       Series,
@@ -53,7 +52,7 @@ exports.createEpisode = async (req, res) => {
     });
     res.status(200).json({
       success: true,
-      message: 'Episode Added Sucessfully',
+      message: "Episode Added Sucessfully",
       data: episode,
     });
   } catch (error) {
@@ -92,10 +91,7 @@ exports.getEpisodeById = async (req, res) => {
   try {
     let id = req.params.id;
     const episode = await Episode.findById(id);
-    const learningItems = await Learning.find({ Episode: id });
-    res
-      .status(200)
-      .json({ success: true, data: episode, items: learningItems });
+    res.status(200).json({ success: true, data: episode });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -110,7 +106,7 @@ exports.removeEpisode = async (req, res) => {
     const removeEpisode = await Episode.remove({ _id: id });
     res.status(200).json({
       success: true,
-      message: 'Episode Deleted Successfully',
+      message: "Episode Deleted Successfully",
       data: removeEpisode,
     });
   } catch (error) {
@@ -138,15 +134,16 @@ exports.updateEpisode = async (req, res, next) => {
     if (!Series || !Title || !Status || !id) {
       return res.status(400).json({
         success: false,
-        message: 'Please enter all the fields.',
+        message: "Please enter all the fields.",
       });
     }
     if (req.imageArr) {
       if (req.imageArr.length > 1) {
         return res.status(400).json({
-          Message: 'you can insert only One image for banner',
+          Message: "you can insert only One image for banner",
         });
       } else {
+
         const updatedEpisode = await Episode.updateOne(
           { _id: id },
           {
@@ -166,11 +163,12 @@ exports.updateEpisode = async (req, res, next) => {
         );
         res.status(200).json({
           success: true,
-          message: 'Episode Updated Successfully',
+          message: "Episode Updated Successfully",
           data: updatedEpisode,
         });
       }
     } else {
+      
       const updatedEpisode = await Episode.updateOne(
         { _id: id },
         {
@@ -181,16 +179,17 @@ exports.updateEpisode = async (req, res, next) => {
             Description: Description,
             Completion: Completion,
             LearningItem: LearningItem,
-            Dictionary: Dictionary,
+            // Dictionary: Dictionary,
             Games: Games,
             PostAssenment: PostAssenment,
             Status: Status,
           },
         }
       );
+      console.log(updatedEpisode);
       res.status(200).json({
         success: true,
-        message: 'Episode Updated Successfully',
+        message: "Episode Updated Successfully",
         data: updatedEpisode,
       });
     }
