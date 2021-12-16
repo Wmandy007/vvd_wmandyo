@@ -26,7 +26,7 @@ exports.createQuiz = async (req, res, next) => {
         message: "Please enter all the fields.",
       });
     }
-    if (req.imageArr.length > 1) {
+    if (req.imageArr && req.imageArr.length > 1) {
       return res.status(400).json({
         Message: "you can insert only One image",
       });
