@@ -39,8 +39,8 @@ exports.getLoggedInUser = async (req, res) => {
     if (!token) {
       return res.status(401).json({ message: 'Token required' });
     }
-    // const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    const user = await User.findById(token).select('-password');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const user = await User.findById(decoded.id).select('-password');
 
     if (!user) {
       return res.status(401).json({ message: 'User doesnot exist' });

@@ -4,6 +4,7 @@ const {
   createQuiz,
   getQuiz,
   getQuizById,
+  getQuizByLearningItemId,
   removeQuiz,
   updateQuiz,
 } = require("../controllers/quiz");
@@ -21,6 +22,7 @@ var multipleUpload = multer({
 router.post("/create", multipleUpload, multipleImages, createQuiz);
 router.get("/", getQuiz);
 router.get("/:id", getQuizById);
+router.get("/learning/:id", getQuizByLearningItemId);
 router.delete("/:id", removeQuiz);
 router.patch("/:id", multipleUpload, multipleImages, updateQuiz);
 module.exports = router;
