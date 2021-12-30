@@ -11,7 +11,7 @@ var storage = multer.memoryStorage({
 });
 var multipleUpload = multer({
   storage: storage,
-  // limits: { fileSize: 1024 * 1024 * 5 },
+  // limits: { fileSize: 1024 * 1024 * 500 },
 }).array('file');
 
 router.post('/', multipleUpload, multipleImages, uploadMedia);
