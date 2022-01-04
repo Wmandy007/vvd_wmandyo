@@ -4,11 +4,15 @@
 exports.uploadMedia = async (req, res) => {
     try {
         if (!req.imageArr) {
-            if(!req.query.is_doc){
-                return res.status(400).json({
-                    message: "image is required",
+            if(req.query.is_doc)
+                 return res.status(200).json({
+                    success: true,
+                    message: "Image Uploaded Sucessfully",
                 });
-            }
+            return res.status(400).json({
+                message: "image is required",
+            });
+            
         }
         return res.status(200).json({
             success: true,
