@@ -192,6 +192,8 @@ exports.updateSeries = async (req, res, next) => {
                         LearningOutcomes: LearningOutcomes,
                         TakeAway: TakeAway,
                         CompletionCriteria: CompletionCriteria,
+                        Dictionary: Dictionary,
+                        DictionaryDescription: DictionaryDescription,
                         Client: Client,
                         Status: Status,
                     },
