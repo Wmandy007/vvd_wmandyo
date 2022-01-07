@@ -33,6 +33,7 @@ app.use('/api/season', season);
 app.use('/api/series', series);
 app.use('/api/episode', episode);
 app.use('/api/learning', learning);
+app.use('/api/game', gameRoutes);
 app.use('/api/quiz', quiz);
 app.use('/api/uploadimage', uploadImage);
 app.get('/', (req, res) => {
