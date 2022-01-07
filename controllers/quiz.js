@@ -67,12 +67,12 @@ exports.createQuiz = async (req, res, next) => {
 // @Route : api/Quiz/
 // @Desc  : Get all Quizs
 exports.getQuiz = async (req, res) => {
-    try {
-        const quiz = await Quiz.find();
-        res.status(200).json({success: true, data: quiz});
-    } catch (error) {
-        res.status(500).json({message: error.message});
-    }
+//     try {
+        const quiz = await Quiz.find({});
+        return res.status(200).json({success: true, data: quiz});
+//     } catch (error) {
+//         res.status(500).json({message: error.message});
+//     }
 };
 
 // @Method: GET
