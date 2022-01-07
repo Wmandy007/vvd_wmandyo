@@ -12,6 +12,7 @@ const episode = require('./routes/episode');
 const learning = require('./routes/learning');
 const quiz = require('./routes/quiz');
 const uploadImage = require('./routes/uploadImage');
+const gameRoutes = require('./routes/gameRoutes');
 
 //Initialize express app
 const app = express();
