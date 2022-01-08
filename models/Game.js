@@ -13,7 +13,7 @@ const gameSchema = new Schema(
         options: [
             {
                 name: String,
-                answerType: String,
+                answerType: Number,
                 reason: String,
                 points: String,
             },
