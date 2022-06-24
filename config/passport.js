@@ -17,14 +17,14 @@ const SamlStrategyMiddleware = new SamlStrategy({
     issuer: process.env.SAML_ISSUER,
     path: '/api/saml/acs',
     entryPoint: process.env.SAML_ENTRYPOINT,
-    cert: fs.readFileSync(path.join(__dirname, "./saml-cert.pem"), "utf8"),
+    cert: fs.readFileSync(path.join(__dirname, "./saml.cert"), "utf8"),
 },
 function(profile, done) {
     console.log('Succesfully Profile' + JSON.stringify(profile));
     if (!profile.email) {
         return done(new Error("No email found"), null);
     }
-    process.nextTick(function() {
+    process.nextTick(async function() {
         console.log('process.nextTick' + profile);
         try {
             const user = await User.findOne({
