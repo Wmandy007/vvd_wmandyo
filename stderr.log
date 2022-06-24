@@ -1,0 +1,295 @@
+Sat, 15 Jan 2022 21:20:12 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at controllers/leader.js:8:16
+Sat, 15 Jan 2022 21:20:17 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at controllers/leader.js:8:16
+Sat, 15 Jan 2022 21:20:22 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at controllers/leader.js:8:16
+Sat, 15 Jan 2022 21:20:34 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at controllers/leader.js:8:16
+Sat, 15 Jan 2022 21:20:38 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at controllers/leader.js:8:16
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:52
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:50
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:50
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:50
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+/home/callxlfm/backend.callender.xyz/controllers/answer.js:50
+            ];
+            ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/routes/answer.js:5:5)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/callxlfm/backend.callender.xyz/server.js:15:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+(node:904295) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.EventEmitter.emit (domain.js:483:12)
+    at Busboy.emit (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at PartStream.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser._finish (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH.EventEmitter.emit (domain.js:483:12)
+    at SBMH._sbmh_feed (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/streamsearch/lib/sbmh.js:159:14)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.EventEmitter.emit (domain.js:483:12)
+    at Busboy.emit (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at PartStream.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser._finish (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH.EventEmitter.emit (domain.js:483:12)
+    at SBMH._sbmh_feed (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/streamsearch/lib/sbmh.js:159:14)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.EventEmitter.emit (domain.js:483:12)
+    at Busboy.emit (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at PartStream.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser.EventEmitter.emit (domain.js:483:12)
+    at HeaderParser._finish (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH.EventEmitter.emit (domain.js:483:12)
+    at SBMH._sbmh_feed (/home/callxlfm/nodevenv/backend.callender.xyz/12/lib/node_modules/streamsearch/lib/sbmh.js:159:14)
+awk: (FILENAME=- FNR=1) warning: error writing standard output (Broken pipe)
+(node:3612727) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:3304193) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:296616) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:485124) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:204060) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:369941) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:2017844) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:3028102) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:2196923) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:1286635) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:1808946) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:1270721) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:4097987) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:40046) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:1120057) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:283929) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:321426) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:49528) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:3265707) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:1266311) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:2376822) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:49087) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:472492) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:607928) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:627158) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:2124285) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+(node:3137643) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
